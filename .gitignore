@@ -1,0 +1,51 @@
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven logs
+maven-debug.log
+
+# Frontend build and dependencies
+notes-frontend/node_modules/
+notes-frontend/dist/
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+notes-frontend/.env
+notes-frontend/.env.*
+!notes-frontend/.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/*
+!.vscode/extensions.json
