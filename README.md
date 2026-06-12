@@ -1,6 +1,6 @@
 # Noted
 
-## About me
+## About Noted
 
 I built this as a learning + portfolio project to practice full-stack development with Spring Boot and React.
 
